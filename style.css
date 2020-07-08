@@ -85,6 +85,10 @@ color: #000000;
    
 }
 
+.box:hover{
+    background-color: lightgray;
+}
+
 .courses h1{
     text-align: center;
     color: #413960;
