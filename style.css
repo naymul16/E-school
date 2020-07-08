@@ -1,6 +1,11 @@
+body{
+    font-family:'Poppins', sans-serif;
+}
 .container{
     margin-bottom: 80px;
 }
+
+/*navbar and header section*/
 .head-section{
     background-color: #F0FFF0;
 }
@@ -59,6 +64,8 @@ color: #000000;
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
+/*categories section*/
 .img{
     display: block;
     height:60px;
@@ -89,6 +96,7 @@ color: #000000;
     background-color: lightgray;
 }
 
+/*courses section*/
 .courses h1{
     text-align: center;
     color: #413960;
@@ -118,10 +126,55 @@ color: #000000;
     font-size: 16px;
     color: #585859;
 }
+/*blog section*/
+.blogs h1{
+    text-align: center;
+    color: #413960;
+    font-weight: bold;
+    font-size: 36px
+}
 
+/*our team section style*/
+
+.team h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #413960;
+    font-weight: bold;
+}
+.img-team{
+    display: block;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+}
+.img-box{
+    box-shadow: 5px 5px 10px lightgray;
+    margin-bottom: 20px;
+}
+
+.name{
+    text-align: center;
+    margin-top: 20px;
+}
+.designation{
+    text-align: center;
+    margin-top: 10px;
+    color:grey;
+}
+
+.team-text{
+    text-align: center;
+    color: grey;
+    line-height: 20px;
+}
+
+
+
+/*testimonial section*/
 .testimonial{
     text-align: center;
-    color:black;
+    color: #413960;
     font-weight: bold;
     font-size: 36px
 }
@@ -167,11 +220,3 @@ color: #000000;
     font-size: 16px;
     color: #CDCDCD;
 }
-
-.blogs h1{
-    text-align: center;
-    color: #413960;
-    font-weight: bold;
-    font-size: 36px
-}
-
